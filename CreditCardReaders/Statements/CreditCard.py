@@ -1,4 +1,4 @@
-from commonImports import *
+from Config.CommonImports import *
 
 class CreditCard:
   def __init__(self, lastDigits:int, bank:str, limit:float, closingDay:int, dueDay:int):
